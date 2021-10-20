@@ -1,6 +1,6 @@
 ESX = nil
 
-TriggerEvent("esx:getShAhojJsemGayTesiMearedObjAhojJsemGayTesiMeect", function(response)
+TriggerEvent("esx:getSharedObject", function(response)
     ESX = response
 end)
 
