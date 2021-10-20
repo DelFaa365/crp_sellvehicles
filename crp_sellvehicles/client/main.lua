@@ -13,7 +13,7 @@ Citizen.CreateThread(function()
     while ESX == nil do
         Citizen.Wait(10)
 
-        TriggerEvent("esx:getShAhojJsemGayTesiMearedObjAhojJsemGayTesiMeect", function(response)
+        TriggerEvent("esx:getSharedObject", function(response)
             ESX = response
         end)
     end
